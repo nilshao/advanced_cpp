@@ -1,5 +1,6 @@
 #include <iostream>
-#include <math.h>
+#include <cmath>
+#define PI 3.1415926
 
 double sum(double a, double b){
     double res = a + b;
@@ -46,6 +47,7 @@ int main(){
     std::cout << multiply(c,d) <<std::endl;
     std::cout << divide(c,d) <<std::endl;
     std::cout << square(a) <<std::endl;
-
+    std::cout << "pi is: " << PI << std::endl;
+    std::cout << sin( 0.5*PI ) <<std::endl;
     return 0;
 }
