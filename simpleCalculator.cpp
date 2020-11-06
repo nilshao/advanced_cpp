@@ -1,7 +1,8 @@
 #include <iostream>
 #include <cmath>
+#include <cassert>
 #define PI 3.1415926
-
+//g++ -o mycode mycode.cpp -g
 double sum(double a, double b){
     double res = a + b;
     return res;
@@ -21,6 +22,7 @@ double multiply(double a, double b){
     return res;
 }
 double divide(int a, int b){
+    assert(b!=0);
     double res = (double)a/b;
     return res;
 }
@@ -38,7 +40,7 @@ int main(){
 
     int c = 49;
     int d = 3;
-
+    int e = 0;
     std::cout << sum(a,b) << std::endl;
     std::cout << subtract(a,b) <<std::endl;
     std::cout << mean(a,b) <<std::endl;
@@ -49,5 +51,7 @@ int main(){
     std::cout << square(a) <<std::endl;
     std::cout << "pi is: " << PI << std::endl;
     std::cout << sin( 0.5*PI ) <<std::endl;
+    std::cout << divide(c,e) <<std::endl;
+
     return 0;
 }
