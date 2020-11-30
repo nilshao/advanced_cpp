@@ -27,15 +27,20 @@ void print_vector(std::vector<unsigned int> &vec){
     std::cout << "/n";
 }
 int main(){
+
+    //q1
     std::vector<unsigned int> v(100,0);
+    //q2
     populate_vector(v);
-    print_vector(v);
+ //   print_vector(v);
     std::vector<std::vector<unsigned int>> A;
     for(auto i=0;i<v.size(); ++i){
         std::vector<unsigned int> tmp(100,0);
         populate_vector(tmp);
         A.push_back(tmp);
     }
+    //q4
+    std::vector<unsigned int> res
 
     return 0;
 }
