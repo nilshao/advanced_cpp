@@ -6,9 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/sibohao/Desktop/advanced_cpp/tutorial_5/visapp-skeleton/src/helper.cpp
-
-/Users/sibohao/Desktop/advanced_cpp/tutorial_5/visapp-skeleton/src/vis_app.cpp
+../include/helper.h
 iostream
 -
 sstream
@@ -33,4 +31,8 @@ map
 -
 tuple
 -
+
+/Users/sibohao/Desktop/advanced_cpp/tutorial_5/visapp-skeleton/src/vis_app.cpp
+helper.h
+/Users/sibohao/Desktop/advanced_cpp/tutorial_5/visapp-skeleton/src/helper.h
 

@@ -1,7 +1,5 @@
 /Users/sibohao/Desktop/advanced_cpp/tutorial_5/visapp-skeleton/build/CMakeFiles/rebuild_cache.dir
 /Users/sibohao/Desktop/advanced_cpp/tutorial_5/visapp-skeleton/build/CMakeFiles/vis.dir
-/Users/sibohao/Desktop/advanced_cpp/tutorial_5/visapp-skeleton/build/CMakeFiles/vis_app.dir
-/Users/sibohao/Desktop/advanced_cpp/tutorial_5/visapp-skeleton/build/CMakeFiles/helper.dir
 /Users/sibohao/Desktop/advanced_cpp/tutorial_5/visapp-skeleton/build/CMakeFiles/package_source.dir
 /Users/sibohao/Desktop/advanced_cpp/tutorial_5/visapp-skeleton/build/CMakeFiles/ContinuousCoverage.dir
 /Users/sibohao/Desktop/advanced_cpp/tutorial_5/visapp-skeleton/build/CMakeFiles/ContinuousTest.dir

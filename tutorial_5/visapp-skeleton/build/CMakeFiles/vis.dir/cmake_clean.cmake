@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/vis.dir/src/vis_app.cpp.o"
-  "CMakeFiles/vis.dir/src/helper.cpp.o"
-  "../bin/vis.pdb"
   "../bin/vis"
+  "../bin/vis.pdb"
+  "CMakeFiles/vis.dir/src/vis_app.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

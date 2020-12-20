@@ -4,7 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/sibohao/Desktop/advanced_cpp/tutorial_5/visapp-skeleton/src/helper.cpp" "/Users/sibohao/Desktop/advanced_cpp/tutorial_5/visapp-skeleton/build/CMakeFiles/vis.dir/src/helper.cpp.o"
   "/Users/sibohao/Desktop/advanced_cpp/tutorial_5/visapp-skeleton/src/vis_app.cpp" "/Users/sibohao/Desktop/advanced_cpp/tutorial_5/visapp-skeleton/build/CMakeFiles/vis.dir/src/vis_app.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

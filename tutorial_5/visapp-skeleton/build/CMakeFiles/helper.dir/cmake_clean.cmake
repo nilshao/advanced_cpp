@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/helper.dir/src/helper.cpp.o"
-  "libhelper.pdb"
   "libhelper.a"
+  "libhelper.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

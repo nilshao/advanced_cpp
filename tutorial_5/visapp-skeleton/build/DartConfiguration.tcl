@@ -26,7 +26,7 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/local/Cellar/cmake/3.14.4/bin/cmake" "/Users/sibohao/Desktop/advanced_cpp/tutorial_5/visapp-skeleton"
+ConfigureCommand: "/usr/local/Cellar/cmake/3.19.2/bin/cmake" "/Users/sibohao/Desktop/advanced_cpp/tutorial_5/visapp-skeleton"
 MakeCommand: /usr/local/Cellar/cmake/3.14.4/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 
@@ -69,6 +69,10 @@ CompilerVersion: 12.0.0.12000032
 PurifyCommand: 
 ValgrindCommand: 
 ValgrindCommandOptions: 
+DrMemoryCommand: 
+DrMemoryCommandOptions: 
+CudaSanitizerCommand: 
+CudaSanitizerCommandOptions: 
 MemoryCheckType: 
 MemoryCheckSanitizerOptions: 
 MemoryCheckCommand: MEMORYCHECK_COMMAND-NOTFOUND
