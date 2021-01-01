@@ -1,13 +1,11 @@
-# lesson2
+# 练习
 
-## 练习
-
-### 重载操作符
+## 重载操作符
 
 
-### 产生随机数
+## 产生随机数
 
-#### 随机产生正态分布
+### 随机产生正态分布
 
 ```C++
 #include<random>
@@ -39,3 +37,35 @@ void random_generator(std::vector<unsigned int>& vector_input) {
    }
 }
 ```
+
+## 交换数字：
+三种方式
+```C++
+    //standard std functions
+    std::swap(a,b);
+
+    // swap variables using arithmetic operations
+    void swapArithmetic(int &a, int &b)
+    {
+        b += a;
+        a = b - a;
+        b -= a;
+    }
+
+    // swap variables using logical operations
+    void swapXor(int &a, int &b)
+    {
+        b = a ^ b;
+        a = a ^ b;
+        b = a ^ b;
+    }
+
+```
+
+## 
+
+
+
+
+
+

@@ -12,25 +12,23 @@ void print_vec(const std::vector<T> & v)
     std::cout << "]" << std::endl;
 }
 
-void print_matrix(const std::vector<std::vector<int>> & A)
+
+template<typename T>
+void print_matrix(const std::vector<std::vector<T>> & A)
 {
     std::cout << "[" << std::endl;
     for (const auto & row : A)
     {
-        for (const auto & elem : row)
-        {
-            std::cout << elem << " ";
-        }
-        std::cout << std::endl;
+        print_vec(row);
     }
     std::cout << "]" << std::endl;
 }
 
 int main() {
 
-    std::vector<std::vector<int>> A = { {1 , 2},
-                                        {3 , 4}};
-    std::vector<int> v = { 1 , 1};
+    std::vector<std::vector<float>> A = { {1.3 , 2.2},
+                                        {3.4 , 2.4}};
+    std::vector<float> v = { 1.3 , 3.1};
 
     auto N = v.size();
 
@@ -43,7 +41,7 @@ int main() {
     print_vec(v);
 
     // Multiply v * A and store it to a vector m
-    std::vector<int> m(N, 0);
+    std::vector<float> m(N, 0);
     for (auto i=0; i<N; ++i)
     {
         for (auto j=0; j<N; ++j)
