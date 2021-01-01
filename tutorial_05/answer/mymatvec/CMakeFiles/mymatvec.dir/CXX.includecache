@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/sibohao/Desktop/notebooks/advanced_cpp/tutorial_05/answer/mymatvec/src/mymatvec.cpp
+iostream
+-
+vector
+-
+cassert
+-
+

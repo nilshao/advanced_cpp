@@ -19,4 +19,6 @@ void populate_vector( std::vector<unsigned int>& global_cases);
 std::ostream& operator<<(std::ostream& os, std::vector<unsigned> vec)
 std::ostream& operator<<(std::ostream& os, std::vector<double> vec)
 std::unique_ptr<DataFrame> read_from_csv( std::string filename="../data/ecdc_cases_june.csv")
+std::map<std::string, std::vector<double>> normalize_per_capita(std::unique_ptr<DataFrame>& data_frame)
 
+#endif

@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.8)
+project(panSimul VERSION 0.1.0 LANGUAGES CXX)
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
+add_executable(panSimul src/main.cpp src/person.cpp)
+target_compile_features(panSimul PUBLIC cxx_std_17)

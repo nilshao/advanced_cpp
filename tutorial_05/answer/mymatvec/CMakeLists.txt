@@ -4,14 +4,17 @@ project (mymatvec VERSION 0.2.0 LANGUAGES CXX)
 # We need to enable testing before we can define tests
 enable_testing()
 
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
+
 # Find at least version 3.3 of Eigen3
 find_package (Eigen3 3.3 REQUIRED NO_MODULE)
 
 # We can build mymatvec by building mymatvec.cpp
-add_executable (mymatvec mymatvec.cpp)
+add_executable (mymatvec src/mymatvec.cpp)
 # mymatvec needs to be linked to Eigen (which exports a CMake target called Eigen3::Eigen)
 target_link_libraries (mymatvec Eigen3::Eigen)
 
+target_compile_features(mymatvec PUBLIC cxx_std_17)
 # # We also want to build a separate executable with our tests, testmymatvec.
 # # We have moved the test code into testmatvec.cpp
 # add_executable (testmymatvec testmatvec.cpp)
