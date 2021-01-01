@@ -2,6 +2,17 @@
 
 ## 重载操作符
 
+```C++
+std::ostream& operator<<(std::ostream& os, std::vector<double> vec)
+{
+    for(const auto& elem : vec)
+    {
+        os << elem << " " ;
+    }
+    os << '\n';
+    return os;
+}
+```
 
 ## 产生随机数
 
