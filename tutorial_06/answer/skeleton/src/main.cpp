@@ -6,6 +6,7 @@
 
 int main() {
     Student Eve("Eve", "12345");
+    Eve.print_course();
 
     StudentCard eves_card(Eve);
     eves_card.print();
@@ -13,4 +14,5 @@ int main() {
     const Course AdvProg("IN1503", CourseType::Lecture);
     Eve.register_for(AdvProg);
     Eve.list_courses();
+
 }

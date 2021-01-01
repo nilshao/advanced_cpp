@@ -12,7 +12,7 @@ enum class CourseType {
 class Course {
     private:
         std::string _id;
-        CourseType _type;
+        CourseType _type;       
 
     public:
         Course(std::string, CourseType);
