@@ -108,6 +108,7 @@ void populate_vector( std::vector<unsigned int>& global_cases) {
        *iter = unif_distrib(gen);
    }
 }
+
 std::tuple<std::string, int> find_max_tuple(std::vector<unsigned int>& global_cases){
     unsigned int current_max = global_cases[0];
     int index = 0;
@@ -119,6 +120,7 @@ std::tuple<std::string, int> find_max_tuple(std::vector<unsigned int>& global_ca
     }
     return std::make_tuple(countries[index], global_cases[index]);
 }
+
 int main() {
     
     // 2. Create a vector global_cases and initialize

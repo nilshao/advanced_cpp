@@ -18,7 +18,7 @@ int main() {
     if( choice == 'd' )
     {
         // create DataFrame members for dummy data
-        std::vector<std::vector<unsigned> > dummy_cases;
+        std::vector<std::vector<unsigned>> dummy_cases;
         std::vector<unsigned> dummy_population;
 
         for(size_t country_num = 0; country_num < countries.size(); ++country_num )
